@@ -22,13 +22,13 @@ We publish all received postcards [on our company website](https://spatie.be/en/
 
 You can install the package via composer:
 
-``` bash
+```bash
 composer global require spatie/email-concealer-cli
 ```
 
 ## Usage
 
-```
+```bash
 # Conceal all e-mail addresses in a file, and print the result
 email-concealer conceal path_to_src_file
 

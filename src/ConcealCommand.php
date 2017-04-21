@@ -33,11 +33,11 @@ class ConcealCommand extends Command
             return 1;
         }
 
-        $src = $input->getArgument('src');
-        $destination = $input->getOption('overwrite') ? $src : $input->getArgument('dest');
+        $source = $input->getArgument('src');
+        $destination = $input->getOption('overwrite') ? $source : $input->getArgument('dest');
 
-        if (! file_exists($src)) {
-            $output->writeln("File not found at path `$src`");
+        if (! file_exists($source)) {
+            $output->writeln("File not found at path `$source`");
 
             return 1;
         }
@@ -47,7 +47,7 @@ class ConcealCommand extends Command
         );
 
         $concealed = $concealer->conceal(
-            file_get_contents($src)
+            file_get_contents($source)
         );
 
         if ($destination) {

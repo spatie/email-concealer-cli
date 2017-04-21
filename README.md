@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/spatie/email-concealer-cli.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/email-concealer-cli)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/email-concealer-cli.svg?style=flat-square)](https://packagist.org/packages/spatie/email-concealer-cli)
 
-CLI tool for concealing e-mails in a file by replacing their domain. Useful for concealing up production data—like MySQL dumps—so you can use it locally without worrying about having real addresses on your system.
+CLI tool for concealing e-mails in a file by replacing their domain. Useful for concealing production data—like MySQL dumps—so you can use it locally without worrying about having real addresses on your system.
 
 This package is a CLI app for [spatie/email-concealer](https://github.com/spatie/email-concealer).
 

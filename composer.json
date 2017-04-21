@@ -1,0 +1,34 @@
+{
+    "name": "spatie/email-concealer-cli",
+    "description": ":package_description",
+    "keywords": [
+        "spatie",
+        "email-concealer-cli"
+    ],
+    "homepage": "https://github.com/spatie/email-concealer-cli",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian De Deyne",
+            "email": "sebastian@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "spatie/email-concealer": "dev-master",
+        "symfony/console": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\EmailConcealerCLI\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "bin": [
+        "email-concealer"
+    ]
+}

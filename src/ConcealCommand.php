@@ -34,7 +34,7 @@ class ConcealCommand extends Command
         }
 
         $src = $input->getArgument('src');
-        $dest = $input->getOption('overwrite') ? $src : $input->getArgument('dest');
+        $destination = $input->getOption('overwrite') ? $src : $input->getArgument('dest');
 
         if (! file_exists($src)) {
             $output->writeln("File not found at path `$src`");
@@ -50,8 +50,8 @@ class ConcealCommand extends Command
             file_get_contents($src)
         );
 
-        if ($dest) {
-            file_put_contents($dest, $concealed);
+        if ($destination) {
+            file_put_contents($destination, $concealed);
         } else {
             $output->write($concealed);
         }

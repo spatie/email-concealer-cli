@@ -1,6 +1,6 @@
 {
     "name": "spatie/email-concealer-cli",
-    "description": ":package_description",
+    "description": "CLI tool for concealing e-mails in a file by replacing their domain",
     "keywords": [
         "spatie",
         "email-concealer-cli"

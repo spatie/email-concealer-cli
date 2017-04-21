@@ -1,4 +1,5 @@
 <?php
+
 namespace Spatie\EmailConcealerCLI;
 
 use Symfony\Component\Console\Application;

@@ -14,14 +14,14 @@ class ConcealCommand extends Command
     protected function configure()
     {
         $this->setName('conceal');
-        
+
         $this->setDescription('Conceal all e-mail addresses in a file.');
 
         $this->addArgument('src', InputArgument::REQUIRED, 'Path to the input file');
         $this->addArgument('dest', InputArgument::OPTIONAL, 'Path to the destination file. Optional, leave empty to print output', null);
 
         $this->addOption('overwrite', 'o', InputOption::VALUE_NONE, 'Overwrite the input file');
-        $this->addOption('domain', 'd', InputOption::VALUE_REQUIRED, 
+        $this->addOption('domain', 'd', InputOption::VALUE_REQUIRED,
             'The domain that should be used to concealed. Default: "example.com"', 'example.com');
     }
 
@@ -29,6 +29,7 @@ class ConcealCommand extends Command
     {
         if ($input->getOption('overwrite') && $input->getArgument('dest')) {
             $output->writeln("Can't specify a destination and overwrite the source file at the same time");
+
             return 1;
         }
 
@@ -37,6 +38,7 @@ class ConcealCommand extends Command
 
         if (! file_exists($src)) {
             $output->writeln("File not found at path `$src`");
+
             return 1;
         }
 

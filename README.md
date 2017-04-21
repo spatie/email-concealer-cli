@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/email-concealer-cli.svg?style=flat-square)](https://packagist.org/packages/spatie/email-concealer-cli)
 [![Build Status](https://img.shields.io/travis/spatie/email-concealer-cli/master.svg?style=flat-square)](https://travis-ci.org/spatie/email-concealer-cli)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/dcf931ff-0d0e-420e-86c3-79b2f1db5822.svg?style=flat-square)](https://insight.sensiolabs.com/projects/dcf931ff-0d0e-420e-86c3-79b2f1db5822)
 [![Quality Score](https://img.shields.io/scrutinizer/g/spatie/email-concealer-cli.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/email-concealer-cli)
 [![Total Downloads](https://img.shields.io/packagist/dt/spatie/email-concealer-cli.svg?style=flat-square)](https://packagist.org/packages/spatie/email-concealer-cli)
 

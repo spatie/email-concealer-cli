@@ -11,7 +11,7 @@ This package is a CLI app for [spatie/email-concealer](https://github.com/spatie
 
 ## Support us
 
-[![Image](https://github-ads.s3.eu-central-1.amazonaws.com/email-concealer-cli.jpg)](https://spatie.be/github-ad-click/email-concealer-cli)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/email-concealer-cli.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/email-concealer-cli)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 

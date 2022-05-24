@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.1|^8.0|^8.1",
         "spatie/email-concealer": "^1.0",
         "symfony/console": "^3.2"
     },
